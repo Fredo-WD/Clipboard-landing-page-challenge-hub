@@ -274,6 +274,11 @@ p {
     opacity: 0.8;
 }
 
+footer {
+    background-color: var(--Grayish-Blue);
+    height: 10vh;
+}
+
 footer > img {
     width: 3.4375rem;
     /* min-height: 3.4375rem; */
@@ -335,6 +340,19 @@ svg:hover {
         min-height: 19rem;
     }
 
+    .intro > h1 {
+        font-size: 2.875rem;
+        line-height: 3.5625rem;
+        font-weight: 600;
+    }
+
+    .intro > p {
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
     .intro__btns {
         display: flex;
         flex-direction: row;
